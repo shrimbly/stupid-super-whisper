@@ -1,0 +1,23 @@
+{
+  "hotkey": {
+    "key": "space",
+    "modifiers": ["ctrl", "shift"]
+  },
+  "whisperx": {
+    "model": "base",
+    "compute_type": "int8",
+    "language": "en",
+    "batch_size": 16
+  },
+  "audio": {
+    "sample_rate": 16000,
+    "channels": 1,
+    "format": "wav",
+    "temp_dir": "%TEMP%\\stupid-super-whisper"
+  },
+  "ui": {
+    "show_notifications": true,
+    "play_sounds": true,
+    "menubar_icon": true
+  }
+} 
